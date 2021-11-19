@@ -1,0 +1,40 @@
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    /* flex-wrap: nowrap; */
+    /* background-color: DodgerBlue; */
+    justify-content: center;
+  }
+  h1{
+      text-align: center;
+  }
+  .flex-container > div {
+    background-color: #f1f1f1;
+    min-width: 500px;
+    min-height: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .pic1{
+    background: url(../img/bg1.jpg) top no-repeat;
+  }
+  .pic2{
+      background: url(../img/gallery1.jpg) top no-repeat;
+  }
+  .pic3{
+    background: url(../img/gallery2.jpg) top no-repeat;
+}
+.pic4{
+    background: url(../img/gallery3.jpg) top no-repeat;
+}
+
+@media (max-width:700px){
+    .flex-container{
+        flex-basis: 100%;
+    }
+}
