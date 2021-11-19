@@ -15,7 +15,7 @@ body
 	
 	padding-top: 20px;
 	min-height: 750px;
-	width:          900px;
+	width:       1000px;
 	/* height: 720px; */
 	/* height: auto; */
 	position:        relative;
@@ -180,3 +180,21 @@ h3
 	color:           #FDFDFD;
 	
 }
+
+@media screen and (prefers-reduced-motion: reduce){
+	/*Turn off scroll*/
+	html{
+		scroll-behavior: auto; /* Removes scroll animation */
+	}
+  
+	/*Turn off transition*/
+	.skip a{
+	  -webkit-transition: initial; /* sets to default setting */
+	  transition: initial; /* sets to default setting */
+	}
+  
+	/*Turn off parallax*/
+	header{
+	  background-attachment: initial;
+	}
+  }
