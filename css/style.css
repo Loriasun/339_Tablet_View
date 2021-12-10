@@ -203,21 +203,3 @@ h3
 	
 }
 
-@media screen and (prefers-reduced-motion: reduce){
-	/*Turn off scroll*/
-	html{
-		scroll-behavior: auto; /* Removes scroll animation */
-	}
-  
-	/*Turn off transition*/
-	.skip a{
-	  background: #DAA520;
-	  -webkit-transition: initial; /* sets to default setting */
-	  transition: initial; /* sets to default setting */
-	}
-  
-	/*Turn off parallax*/
-	header{
-	  background-attachment: initial;
-	}
-  }
