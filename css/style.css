@@ -15,7 +15,9 @@ body
 	
 	padding-top: 20px;
 	min-height: 750px;
-	width:       1000px;
+	width: 1000px;
+	/* width: auto; */
+	/* max-width: 1000px; */
 	/* height: 720px; */
 	/* height: auto; */
 	position:        relative;
